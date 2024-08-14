@@ -221,7 +221,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument("-g", "--geo", type=str, default=None, help="Optional: Geolocation (e.g., US)")
     parser.add_argument("-p", "--proxy", type=str, default=None, help="Optional: Global Proxy")
     parser.add_argument("-t", "--telegram", metavar=("TOKEN", "CHAT_ID"), nargs=2, type=str, default=None, help="Optional: Telegram Bot Token and Chat ID")
-    parser.add_argument("-d", "--discord", type=str, default=None, help="https://discord.com/api/webhooks/1269489964002054144/5e4Z5JMYG_T5e2tWBJ0Bla3L0Q6D2lS--NzaOXdhOgKm3DU-NKc0gCUTPqnRrL_mkjog")
+    parser.add_argument("-d", "--discord", type=str, default=None, help="Optional: Your discord api")
     return parser.parse_args()
 
 def main():
